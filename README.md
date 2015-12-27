@@ -82,12 +82,18 @@ ____
  http://localhost:3000/pages/contact  
 
 
- 006 Add Links
+006 Add Links
 
- 007 Add Restaurants
+007 Add Restaurants
 
     $ rails generate scaffold Restaurant name:string address:string phone:string website:string
     $ rake db:migrate
 
 http://localhost:3000/restaurants/new  
 http://localhost:3000/restaurants
+
+008 Set the Home Page
+
+    $ rake routes
+
+http://localhost:3000/
