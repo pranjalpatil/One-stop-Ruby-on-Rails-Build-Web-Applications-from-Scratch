@@ -11,6 +11,10 @@ If you will register on udemy.com and click on "Start Free Preview", аfter some
 ____
 
 
+<br/>
+
+### Prepare Linux Environment for Development
+
     # yum install -y \
     which \
     tar \
@@ -61,8 +65,18 @@ ____
     $ rails -v
     Rails 4.2.5
 
-
     $ rails new .
     $ rails server -b 0.0.0.0 -p 3000
 
-http://localhost:3000/
+    http://localhost:3000/
+
+<br/>
+
+### 02 Create our Website
+
+005 Add Our First Pages
+
+    $ rails generate controller Pages about contact
+
+ http://localhost:3000/pages/about
+ http://localhost:3000/pages/contact
