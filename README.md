@@ -78,5 +78,8 @@ ____
 
     $ rails generate controller Pages about contact
 
- http://localhost:3000/pages/about
- http://localhost:3000/pages/contact
+ http://localhost:3000/pages/about  
+ http://localhost:3000/pages/contact  
+
+
+ 006 Add Links
