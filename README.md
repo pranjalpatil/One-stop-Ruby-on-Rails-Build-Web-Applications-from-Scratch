@@ -83,3 +83,11 @@ ____
 
 
  006 Add Links
+
+ 007 Add Restaurants
+
+    $ rails generate scaffold Restaurant name:string address:string phone:string website:string
+    $ rake db:migrate
+
+http://localhost:3000/restaurants/new  
+http://localhost:3000/restaurants
